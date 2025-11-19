@@ -57,7 +57,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="min-h-screen flex items-center justify-center bg-[#d3e1e6]">
       <div className="absolute top-0 left-0 right-0 p-6 text-center z-20 mb-8 absolute w-full h-20 rounded-b-full bg-gray-600 border-3 border-black">
         <h1 className="text-3xl font-bold text-black">
           'Guess you were curious after all...
