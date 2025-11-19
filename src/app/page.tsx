@@ -124,7 +124,7 @@ export default function Home() {
                 <div className="w-full flex justify-center gap-4">
                   <DialogClose asChild>
                     <Button variant="outline">Nah</Button>
-                  
+
                   </DialogClose>
                   <Button onClick={handleKeyDownAbout} type="submit">
                     Let's dig in!
