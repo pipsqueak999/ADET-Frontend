@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import React, { useState, useEffect } from "react";
@@ -18,14 +17,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
 
 export default function Home() {
   const router = useRouter();
@@ -60,6 +51,10 @@ export default function Home() {
   const [contactOpen, setContactOpen] = useState(false);
 
   // Handlers
+  const handleKeyDownAbout = () => {
+    router.push("/about");
+  };
+
   const handleEduSubmit = () => {
     if (eduAnswer.trim().toLowerCase() === "ncf") {
       setEduOpen(false);
@@ -84,6 +79,10 @@ export default function Home() {
     }
   };
 
+  const handleKeyDownHobbies = () => {
+    router.push("/hobbies");
+  };
+
   const handleKeyDownContact = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
       handleContactSubmit();
@@ -91,7 +90,7 @@ export default function Home() {
   };
 
   return (
-    <div >
+    <div>
       <div className="absolute top-0 left-0 right-0 p-6 bg-[#173d4b] text-center z-20 mb-8">
         <h1 className="text-3xl font-bold text-gray-100">
           Welcome to My Personal Website
@@ -124,10 +123,14 @@ export default function Home() {
               <DialogFooter>
                 <div className="w-full flex justify-center gap-4">
                   <DialogClose asChild>
-                    <Button variant="outline">No</Button>
+                    <Button variant="outline">Nah</Button>
+                  
                   </DialogClose>
-                  <Button type="submit">Let's Dig In!</Button>
+                  <Button onClick={handleKeyDownAbout} type="submit">
+                    Let's dig in!
+                  </Button>
                 </div>
+
               </DialogFooter>
             </DialogContent>
           </Dialog>
@@ -201,8 +204,12 @@ export default function Home() {
                   <DialogClose asChild>
                     <Button variant="outline">I Disagree</Button>
                   </DialogClose>
-                  <Button type="submit">I Agree!</Button>
+
+                  <Button onClick={handleKeyDownHobbies} type="submit">
+                    I Agree!
+                  </Button>
                 </div>
+
               </DialogFooter>
             </DialogContent>
           </Dialog>
@@ -252,12 +259,13 @@ export default function Home() {
           </Dialog>
         </div>
 
-        <HoverCard>
+        <HoverCard openDelay={0} closeDelay={0}>
           <HoverCardTrigger asChild>
             <div className="absolute flex items-center justify-center cursor-pointer">
               <div className="rounded-full hover:scale-105 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 cursor-pointer">
                 {/* Background Box for HI VISITOR */}
                 <div className="rounded-full border-4 p-2 border-orange-500 shadow-lg bg-orange-100 opacity-80 min-w-[200px] w-60 h-60"></div>
+
                 {/* Overlapping HI VISITOR */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="flex items-center justify-center rounded-full border-2 p-10 border-gray-400 shadow bg-white shadow-sm min-w-[150px] w-52 h-52">
