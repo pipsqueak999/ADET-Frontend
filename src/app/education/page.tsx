@@ -157,7 +157,7 @@ export default function Home() {
               </DialogContent>
               <DrawerTrigger>
                 <div className="w-full space-y-4 text-[17px] font-bold text-white text-shadow-sm">
-                  <h1>Click to View Images</h1>
+                  <h1>Click to View Gallery</h1>
                 </div>
               </DrawerTrigger>
               <DrawerContent className="bg-black">
@@ -291,7 +291,7 @@ export default function Home() {
               </DialogContent>
               <DrawerTrigger>
                 <div className="w-full space-y-4 text-[17px] font-bold text-white text-shadow-sm">
-                  <h1>Click to View Images</h1>
+                  <h1>Click to View Gallery</h1>
                 </div>
               </DrawerTrigger>
               <DrawerContent className="bg-black">
@@ -425,7 +425,7 @@ export default function Home() {
               </DialogContent>
               <DrawerTrigger>
                 <div className="w-full space-y-4 text-[17px] font-bold text-white text-shadow-sm">
-                  <h1>Click to View Images</h1>
+                  <h1>Click to View Gallery</h1>
                 </div>
               </DrawerTrigger>
               <DrawerContent className="bg-black">
@@ -604,7 +604,7 @@ export default function Home() {
               </DialogContent>
               <DrawerTrigger>
                 <div className="w-full space-y-4 text-[17px] font-bold text-white text-shadow-sm">
-                  <h1>Click to View Images</h1>
+                  <h1>Click to View Gallery</h1>
                 </div>
               </DrawerTrigger>
               <DrawerContent className="bg-black">
