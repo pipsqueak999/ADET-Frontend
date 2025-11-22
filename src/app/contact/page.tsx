@@ -127,11 +127,11 @@ export default function Home() {
       <div className="flex h-150 mt-20 flex-col items-center w-full px-6 mb-20">
         <div>
           <img
-            src="ICARO.jpg"
+            src="ICARO.jpeg"
             alt="image"
             width={350}
             height={300}
-            className="relative right-65 mb-10 z-20 rounded-full shadow-xl border-4 border-blue-300 hover:shadow-2xl filter brightness-90"
+            className="relative right-65 mb-10 z-20 rounded-full shadow-xl border-4 border-blue-300 hover:shadow-2xl filter brightness-110"
           />
         </div>
         <div className=" top-10 shadow-lg/20">
@@ -162,13 +162,17 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-4 absolute grid grid-cols-2 grid-rows-1 gap-4 w-full max-w-4xl h-50 top-140 bottom-50 pb-10">
-        <p className="flex font-bold text-[30px] text-black right-250 text-shadow-lg mt-10">
+        <p className="flex font-bold text-[30px] mr-18 text-black right-250 text-shadow-lg mt-10">
           Feel free to send me any message!!
         </p>
 
         <Textarea
           placeholder="Type your message here."
           className="shadow-lg w-130 p-5"
+          style={{
+            resize: 'none',    // Non-resizable
+            overflow: 'auto'   // Scrollable
+          }}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />

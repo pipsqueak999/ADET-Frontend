@@ -66,19 +66,77 @@ export default function Home() {
     router.push("/contact");
   };
 
-  // Hobbies images
-  const images = [
-    "studies.jpg",
-    "programming.jpg",
-    "crafts.jpeg",
-    "music.jpg",
-    "anime.png",
-    "wisteria.jpg",
-    "dusk.jpg",
-    "dark--nights.jpeg",
-    "watching-movies.jpg",
-    "scary-movies.jpg"
+  // Mini-Projects Images
+  const mini_projects = [
+    "Mini_projects/mp0.jpg",
+    "Mini_projects/mp1.jpg",
+    "Mini_projects/mp2.jpg",
+    "Mini_projects/mp3.jpg",
+    "Mini_projects/mp4.jpg",
+    "Mini_projects/mp5.png"
   ];
+
+  // DIY Crafts Images
+  const diyCrafts = [
+    "DIY-Crafts/diy0.jpg",
+    "DIY-Crafts/diy1.jpg",
+    "DIY-Crafts/diy2.jpg",
+    "DIY-Crafts/diy3.jpeg",
+    "DIY-Crafts/diy4.jpg",
+    "DIY-Crafts/diy5.jpg",
+    "DIY-Crafts/diy6.jpg"
+  ]
+
+  // Music Images
+  const music = [
+    "Music/m0.png",
+    "Music/m1.png",
+    "Music/m2.png",
+    "Music/m3.png",
+    "Music/m4.png",
+    "Music/m5.png",
+    "Music/m6.png",
+    "Music/m7.jpg",
+    "Music/m8.jpg"
+  ]
+
+  // Studies Images
+  const study = [
+    "Study/stud0.jpg",
+    "Study/stud1.jpg",
+    "Study/stud2.png",
+    "Study/stud3.jpg",
+    "Study/stud4.jpg",
+    "Study/stud5.jpg",
+    "Study/stud6.jpg"
+  ]
+
+  // Puzzle Images
+  const puzzles = [
+    "puzzles/puz0.jpg",
+    "puzzles/puz1.jpg",
+    "puzzles/puz2.jpg",
+    "puzzles/puz3.jpg",
+    "puzzles/puz4.jpg",
+    "puzzles/puz5.jpg",
+  ]
+
+  // Movies Images
+  const movies = [
+    "watching_movies/mv0.png",
+    "watching_movies/mv1.jpg",
+    "watching_movies/mv2.jpg",
+    "watching_movies/mv3.png",
+    "watching_movies/mv4.png",
+    "watching_movies/mv5.jpg",
+    "watching_movies/mv6.png",
+    "watching_movies/mv7.png",
+    "watching_movies/mv8.png",
+    "watching_movies/mv9.png",
+    "watching_movies/mvA.jpg",
+    "watching_movies/mvB.jpg",
+
+  ]
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-[#d3e1e6]">
@@ -146,10 +204,13 @@ export default function Home() {
           className="w-[60%] mt-20 "
         >
           <AccordionItem value="item-1">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200">
+            <AccordionTrigger className="border-3 border-grey shadow-lg pl-10">
+              <p className="font-bold text-[20px] text-[#a5450b] text-shadow-lg">
+                ====================== Small Code Project =====================</p>
+            </AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
               <p>DESCRIPTION</p>
-              <div className="flex flex-col items-center justify-center p-8">
+              <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
                     modules={[Autoplay]}  // Add Autoplay if you want auto-scroll
@@ -167,13 +228,13 @@ export default function Home() {
                       1024: { slidesPerView: 3 },  // 3 slides on large screens
                     }}
                   >
-                    {images.map((image, index) => (
+                    {mini_projects.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="flex justify-center">
                           <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-[99%] h-90 object-cover rounded-lg shadow-lg"
+                            className="w-full h-80 object-cover rounded-lg shadow-lg"
                           />
                         </div>
                       </SwiperSlide>
@@ -185,10 +246,13 @@ export default function Home() {
           </AccordionItem>
 
           <AccordionItem value="item-2">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent className="flex flex-col gap-4 text-balance">
+            <AccordionTrigger className="border-3 border-grey shadow-lg pl-10">
+              <p className="font-bold text-[20px] text-center items-center justify-center text-[#a5450b] text-shadow-lg">
+                ========================= DIY Crafts ======================== </p>
+            </AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
               <p>DESCRIPTION</p>
-              <div className="flex flex-col items-center justify-center p-8">
+              <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
                     modules={[Autoplay]}  // Add Autoplay if you want auto-scroll
@@ -206,13 +270,13 @@ export default function Home() {
                       1024: { slidesPerView: 3 },  // 3 slides on large screens
                     }}
                   >
-                    {images.map((image, index) => (
+                    {diyCrafts.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="flex justify-center">
                           <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-[99%] h-90 object-cover rounded-lg shadow-lg"
+                            className="w-full h-80 object-cover rounded-lg shadow-lg"
                           />
                         </div>
                       </SwiperSlide>
@@ -224,10 +288,13 @@ export default function Home() {
           </AccordionItem>
 
           <AccordionItem value="item-3">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent className="flex flex-col gap-4 text-balance">
+            <AccordionTrigger className="border-3 border-grey shadow-lg pl-10">
+              <p className="font-bold text-[20px] text-center items-center justify-center text-[#a5450b] text-shadow-lg">
+                =========================  Studying ========================= </p>
+            </AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
               <p>DESCRIPTION</p>
-              <div className="flex flex-col items-center justify-center p-8">
+              <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
                     modules={[Autoplay]}  // Add Autoplay if you want auto-scroll
@@ -245,13 +312,13 @@ export default function Home() {
                       1024: { slidesPerView: 3 },  // 3 slides on large screens
                     }}
                   >
-                    {images.map((image, index) => (
+                    {study.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="flex justify-center">
                           <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-[99%] h-90 object-cover rounded-lg shadow-lg"
+                            className="w-full h-80 object-cover rounded-lg shadow-lg"
                           />
                         </div>
                       </SwiperSlide>
@@ -263,10 +330,16 @@ export default function Home() {
           </AccordionItem>
 
           <AccordionItem value="item-4">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent className="flex flex-col gap-4 text-balance">
-              <p>DESCRIPTION</p>
-              <div className="flex flex-col items-center justify-center p-8">
+            <AccordionTrigger className="border-3 border-grey shadow-lg pl-10">
+              <p className="font-bold text-[20px] text-center items-center justify-center text-[#a5450b] text-shadow-lg">
+                ====================== Listening to Music ======================</p>
+            </AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
+              <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
+                Fellings that can't come out are always expressed through the Music <br />
+                
+              </p>
+              <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
                     modules={[Autoplay]}  // Add Autoplay if you want auto-scroll
@@ -284,7 +357,7 @@ export default function Home() {
                       1024: { slidesPerView: 3 },  // 3 slides on large screens
                     }}
                   >
-                    {images.map((image, index) => (
+                    {music.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="flex justify-center">
                           <img
@@ -302,10 +375,19 @@ export default function Home() {
           </AccordionItem>
 
           <AccordionItem value="item-5">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent className="flex flex-col gap-4 text-balance">
-              <p>DESCRIPTION</p>
-              <div className="flex flex-col items-center justify-center p-8">
+            <AccordionTrigger className="border-3 border-grey shadow-lg pl-10">
+              <p className="font-bold text-[20px] text-center items-center justify-center text-[#a5450b] text-shadow-lg">
+                =================== Playing and Solving Puzzle ===================</p>
+            </AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
+              <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
+                One of the things that I enjoy is solving puzzles. <br />
+                It really boosts my mood, pleasure and fun while improving my problem solving <br />
+                skills. I can sit all day playing and finish all levels of these game. <br />
+                These are the current games that I have right now as I just <br />
+                finished the previous one last month
+              </p>
+              <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
                     modules={[Autoplay]}  // Add Autoplay if you want auto-scroll
@@ -323,13 +405,13 @@ export default function Home() {
                       1024: { slidesPerView: 3 },  // 3 slides on large screens
                     }}
                   >
-                    {images.map((image, index) => (
+                    {puzzles.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="flex justify-center">
                           <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-[99%] h-90 object-cover rounded-lg shadow-lg"
+                            className="w-full h-80 object-cover rounded-lg shadow-lg"
                           />
                         </div>
                       </SwiperSlide>
@@ -341,10 +423,16 @@ export default function Home() {
           </AccordionItem>
 
           <AccordionItem value="item-6">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent className="flex flex-col gap-4 text-balance">
-              <p>DESCRIPTION</p>
-              <div className="flex flex-col items-center justify-center p-8">
+            <AccordionTrigger className="border-3 border-grey shadow-lg pl-10">
+              <p className="font-bold text-[20px] text-center items-center justify-center text-[#a5450b] text-shadow-lg">
+                ========================= Watching ======================== </p>
+            </AccordionTrigger>
+            <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
+              <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
+                Here are some of the photos and screenshots that I took while watching movies. <br />
+                Horror and Thriller genre are the kind of movies that I love to binge watch <br />
+                I also love watching different series like the famous Alice in Borderland, my favourite.</p>
+              <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
                     modules={[Autoplay]}  // Add Autoplay if you want auto-scroll
@@ -362,13 +450,13 @@ export default function Home() {
                       1024: { slidesPerView: 3 },  // 3 slides on large screens
                     }}
                   >
-                    {images.map((image, index) => (
+                    {movies.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="flex justify-center">
                           <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-[99%] h-90 object-cover rounded-lg shadow-lg"
+                            className="w-full h-80 object-cover rounded-lg shadow-lg"
                           />
                         </div>
                       </SwiperSlide>
@@ -382,7 +470,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="relative w-full py-4 h-15 bg-gray-600 border-t-3 border-black rounded-t-full flex items-center justify-center flex-shrink-0 z-10">
+      <footer className="relative w-full py-4 h-15 mt-20 bg-gray-600 border-t-3 border-black rounded-t-full flex items-center justify-center flex-shrink-0 z-10">
         <h1 className="text-3xl font-bold text-white text-shadow-lg/30 opacity-50">
           That was fun! Having a great time? 🤝
         </h1>

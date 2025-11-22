@@ -167,7 +167,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem0.jpeg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem0.jpeg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -176,7 +176,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem1.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem1.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -185,7 +185,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem2.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem2.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -194,7 +194,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem3.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem3.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -203,7 +203,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem4.jpeg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem4.jpeg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -212,7 +212,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem5.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem5.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -221,7 +221,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem6.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem6.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -230,7 +230,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem7.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem7.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -239,7 +239,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem8.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem8.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -248,7 +248,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="elem9.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="elem_gallery/elem9.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -301,7 +301,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs0.jpg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs0.jpg" alt="Junior High Pictures" className="w704 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -310,7 +310,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs1.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs1.jpeg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -319,7 +319,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs2.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs2.jpg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -328,7 +328,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs3.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs3.jpg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -337,7 +337,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs4.jpg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs4.jpg" alt="Junior High Pictures" className="w704 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -346,7 +346,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs5.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs5.jpeg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -355,7 +355,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs6.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs6.jpg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -364,7 +364,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs7.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs7.jpeg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -373,7 +373,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs8.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs8.jpg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -382,7 +382,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="jhs9.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="jhs_gallery/jhs9.jpg" alt="Junior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -435,7 +435,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs1.jpeg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />  {/* Added fixed w-64 h-64 for uniform size */}
+                            <img src="shs_gallery/shs1.jpeg" alt="Senior High Pictures" className="w704 h-64 object-cover rounded-lg" />  {/* Added fixed w-64 h-64 for uniform size */}
                           </CardContent>
                         </Card>
                       </div>
@@ -444,7 +444,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs2.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs2.jpg" alt="ESenior HighpPctures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -453,7 +453,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs3.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs3.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -462,7 +462,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs4.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs4.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -471,7 +471,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs5.jpeg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs5.jpeg" alt="Senior High Pictures" className="w704 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -480,7 +480,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs6.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs6.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -489,7 +489,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs7.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs7.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -498,7 +498,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs8.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs8.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -507,7 +507,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shs9.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shs9.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -516,7 +516,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shsA.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shsA.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -525,7 +525,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shsB.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shsB.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -534,7 +534,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shsC.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shsC.jpg" alt="ESenior HighpPctures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -543,7 +543,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shsD.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shsD.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -552,7 +552,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shsE.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shsE.jpeg" alt="Senior High Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -561,7 +561,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="shsF.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="shs_gallery/shsF.jpg" alt="ESenior HighpPctures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -614,7 +614,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col1.jpg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />  {/* Added fixed w-64 h-64 for uniform size */}
+                            <img src="col_gallery/col1.jpg" alt="College Pictures" className="w704 h-64 object-cover rounded-lg" />  {/* Added fixed w-64 h-64 for uniform size */}
                           </CardContent>
                         </Card>
                       </div>
@@ -623,7 +623,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col2.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col2.jpg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -632,7 +632,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col3.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col3.jpeg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -641,7 +641,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col4.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col4.jpeg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -650,7 +650,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col5.jpeg" alt="Elementary pictures" className="w704 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col5.jpeg" alt="College Pictures" className="w704 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -659,7 +659,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col6.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col6.jpeg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -668,7 +668,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col7.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col7.jpeg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -677,7 +677,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col8.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col8.jpg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -686,7 +686,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="col9.png" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/col9.png" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -695,7 +695,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="colA.jpeg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/colA.jpeg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -704,7 +704,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="colB.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/colB.jpg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -713,7 +713,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="colC.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/colC.jpg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -722,7 +722,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="colD.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/colD.jpg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
@@ -731,7 +731,7 @@ export default function Home() {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-1">
-                            <img src="colE.jpg" alt="Elementary pictures" className="w-70 h-64 object-cover rounded-lg" />
+                            <img src="col_gallery/colE.jpg" alt="College Pictures" className="w-70 h-64 object-cover rounded-lg" />
                           </CardContent>
                         </Card>
                       </div>
