@@ -276,7 +276,7 @@ export default function Home() {
         </div>
         <div className="absolute top-110 w-[40%] h-40 bg-white opacity-50 rounded-[40px] shadow-lg">
           <h1 className="absolute pt-2 inset-0 flex font-bold text-[19px] text-center items-center justify-center text-black text-shadow-lg">
-            QUIPAYO NATIONAL HIHG SCHOOL <br />
+            QUIPAYO NATIONAL HIGH SCHOOL <br />
             2018 - 2022 <br />
             SAN ANTONIO QUIPAYO, CALABANGA, CAMARINES SUR
           </h1>
@@ -590,7 +590,7 @@ export default function Home() {
         <div className="absolute top-230 w-[40%] h-40 bg-white opacity-50 rounded-[40px] shadow-lg">
           <h1 className="absolute pt-2 inset-0 flex font-bold text-[19px] text-center items-center justify-center text-black text-shadow-lg">
             NAGA COLLEGE FOUNDATION, INC<br />
-            2024 - 2nd yr (First sem) <br />
+            2024 - <br />
             M.T. VILLANUEVA AVE., NAGA CITY, CAMARINES SUR
           </h1>
         </div>

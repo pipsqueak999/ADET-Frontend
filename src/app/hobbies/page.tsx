@@ -206,10 +206,14 @@ export default function Home() {
           <AccordionItem value="item-1">
             <AccordionTrigger className="border-3 border-grey shadow-lg pl-10">
               <p className="font-bold text-[20px] text-[#a5450b] text-shadow-lg">
-                ====================== Small Code Project =====================</p>
+                ===================== Small Coding Project =====================</p>
             </AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
-              <p>DESCRIPTION</p>
+              <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
+               I just recently acquired this hobby as a requirement for me to learn coding<br />
+               Making mini-projects like simple math converter, calculator, and basic coding stuffs <br />
+               Becomes a great help for me to improve my skills and master programming language.  
+               </p>
               <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
@@ -251,7 +255,11 @@ export default function Home() {
                 ========================= DIY Crafts ======================== </p>
             </AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
-              <p>DESCRIPTION</p>
+              <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
+                Making DIYs is a boredom escape-way for me. <br />
+                I enjoy crafting and making cute stuffs when I have nothing to do. <br />
+                This hobby is kinda influenced by my mother cause she likes to do many crafts.
+              </p>
               <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
@@ -293,7 +301,11 @@ export default function Home() {
                 =========================  Studying ========================= </p>
             </AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
-              <p>DESCRIPTION</p>
+              <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
+                I must say that studying is also a habit of mine. <br />
+                My brain wasn't fortunate enough to become gifted and have a great intelligence <br />
+                With that, studying becomes one of my habit that benefits my academics
+              </p>
               <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
                   <Swiper
@@ -337,7 +349,8 @@ export default function Home() {
             <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
               <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
                 Fellings that can't come out are always expressed through the Music <br />
-                
+                Melodies that heals, lyrics that hit so hard, songs that brings life <br />
+                I enjoy music as much as I enjoy this life.
               </p>
               <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
@@ -381,11 +394,9 @@ export default function Home() {
             </AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4 text-balance bg-blue-200 border-3 rounded-[30px] p-5 border-blue-500">
               <p className="font-bold text-[17px] text-center items-center justify-center text-[#054279] text-shadow-lg">
-                One of the things that I enjoy is solving puzzles. <br />
-                It really boosts my mood, pleasure and fun while improving my problem solving <br />
-                skills. I can sit all day playing and finish all levels of these game. <br />
-                These are the current games that I have right now as I just <br />
-                finished the previous one last month
+                I love solving puzzles because they boost my mood, pleasure, and problem-solving skills. <br />
+                I can play them all day and finish entire levels in one sitting. <br />
+                I’ve just completed my previous game last month and now enjoy these new ones.
               </p>
               <div className="flex flex-col items-center justify-center p-3 pb-5 border-3 rounded-[30px] border-black bg-[#d3e1e6]">
                 <div className="w-full max-w-6xl">
