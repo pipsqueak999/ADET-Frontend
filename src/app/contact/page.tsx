@@ -147,7 +147,7 @@ export default function Home() {
           <div className="absolute bottom-132 right-65 w-[30%] h-15 bg-white rounded-[50px] shadow-lg/20 z-10">
             <img src="phone-call.png" alt="email icon" className="flex mt-2 ml-4 justify-center w-10 " />
             <h1 className="absolute inset-0 flex font-bold text-[25px] text-center items-center justify-center text-black text-shadow-lg">
-              +639634457512
+              +639942756897
             </h1></div>
           <div className="absolute bottom-127 right-65 w-[30%] h-20 bg-black opacity-50 rounded-[50px]"></div>
         </div>
@@ -191,7 +191,7 @@ export default function Home() {
               type="submit"
               variant="ghost"
               className="bg-transparent hover:bg-transparent shadow-none">
-              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-20">
+              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-50">
                 HOME
               </h1>
             </Button>
@@ -201,7 +201,7 @@ export default function Home() {
               type="submit"
               variant="ghost"
               className="bg-transparent hover:bg-transparent shadow-none">
-              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-20">
+              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-50">
                 ABOUT
               </h1>
             </Button>
@@ -211,7 +211,7 @@ export default function Home() {
               type="submit"
               variant="ghost"
               className="bg-transparent hover:bg-transparent shadow-none">
-              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-20">
+              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-50">
                 EDUCATION
               </h1>
             </Button>
@@ -221,7 +221,7 @@ export default function Home() {
               type="submit"
               variant="ghost"
               className="bg-transparent hover:bg-transparent shadow-none">
-              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-20">
+              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[20px] mt-5 text-center items-center justify-center text-[#FAD684] text-shadow-lg z-50">
                 HOBBIES
               </h1>
             </Button>
@@ -231,7 +231,7 @@ export default function Home() {
               type="submit"
               variant="ghost"
               className="bg-transparent hover:bg-transparent shadow-none">
-              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[17px] mt-5 text-center items-center justify-center text-white text-shadow-lg z-20">
+              <h1 className="absolute bottom-10 top-2 inset-0 flex font-bold text-[17px] mt-5 text-center items-center justify-center text-white text-shadow-lg z-50">
                 CONTACT
               </h1>
             </Button>
