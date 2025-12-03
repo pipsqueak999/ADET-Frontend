@@ -182,9 +182,11 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bottom-0 left-0 right-0 w-full py-4 h-15 bg-gray-600 border-t-3 border-black rounded-t-full flex items-center justify-center z-10">
-        <h1 className="text-3xl font-bold text-white text-shadow-lg/30 opacity-50 z-10">
+         <div className=" w-full h-15 rounded-b-full bg-gray-600 border-3 border-black flex items-center justify-center mb-8 z-50">
+        <h1 className="text-3xl font-bold text-white text-shadow-lg">
           Reach me out! 🤙
         </h1>
+      </div>
         <div>
           <div onClick={handleKeyDownHome} className="bottom-0 left-45 right-0 p-6 text-center mb-15 absolute w-50 h-15 rounded-t-[50px] bg-gray-400 border-3 border-gray-500 transition-all duration-300 hover:h-20 hover:bg-gray-500">
             <Button
