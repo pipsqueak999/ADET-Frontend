@@ -181,7 +181,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="bottom-0 left-0 right-0 w-full py-4 h-15 bg-gray-600 border-t-3 border-black rounded-t-full flex items-center justify-center z-10">
+      <footer className="bottom-0 left-0 right-0 w-full py-4 h-15 bg-gray-600 border-t-3 border-black rounded-t-full flex items-center justify-center z-0">
         <h1 className="text-3xl font-bold text-white text-shadow-lg/30 opacity-50">
           Reach me out! 🤙
         </h1>
